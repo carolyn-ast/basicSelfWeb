@@ -1,0 +1,30 @@
+<!--Assignment1  CarolHuang#301164177 COMP229-009 Date:28th,Sep,2022 -->
+<%- include partials/header.ejs %>
+
+
+  <body>
+    <p class="title">Welcome to <%= title %></p>
+  <!-- main nav -->
+  <%- include partials/mainNav.ejs %>
+  
+  <div class="main">
+<p>My Email: xxxxxxxx@gmail.com</p>
+<p>My linkIn link: xxxxxxxxxx</p>
+<p>Feel free to leave your contact info below</p>
+<p>Thank you!</p>
+
+
+
+    <form method="post">
+       
+    <p> Your full name: <input type="text" name="fullName" /></p>
+    <p> Your phone number: <input type="text" name="phoneNum" /></p>  
+     <p>Your Email address: <input type="text" name="Email" /></p> 
+      <p>Leave a message: <textarea id="msg" name="msg" rows="3" cols="50"></textarea></p>
+      <p><input class="submit" type="submit" /></p>
+    </form>
+  </div>
+   
+  <%- include partials/copyRight.ejs %>
+   
+  <%- include partials/footer.ejs %>
